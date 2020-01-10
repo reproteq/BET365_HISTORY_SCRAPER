@@ -1,0 +1,23 @@
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+
+# due to using tox and pytest
+.tox
+.cache
+
+*.json
+*.log
+
+# gradle stuff to ignore
+#Gradle
+.gradletasknamecache
+.gradle/
+build/
+bin/
